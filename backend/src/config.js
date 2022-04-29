@@ -52,9 +52,9 @@ const CONTRACT_SYMBOL = 'WFS';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x6E6aC8D5571223E9B05CfEaFee6C19833Ad107c2';
 const TREASURY_ADDRESS = '0x6E6aC8D5571223E9B05CfEaFee6C19833Ad107c2';
-const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MAX_SUPPLY = 16; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 50; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 1; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-04-27T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
